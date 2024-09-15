@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="./admin.css" />
+    <style>
+    
+    
+    </style>
+  </head>
+  <body>
+    <div class="Admin">
+      <h2>Admin</h2>
+
+      <form id="userForm">
+        <input
+          placeholder="First Name"
+          class="inp"
+          type="text"
+          id="firstName"
+          name="firstName"
+        /><br /><br />
+
+        <input
+          placeholder="Last Name"
+          class="inp"
+          type="text"
+          id="lastName"
+          name="lastName"
+        /><br /><br />
+
+
+        <button class="btn" type="submit">Add User</button>
+      </form>
+
+      <div class="user-list" id="userList"></div>
+    </div>
+    <script src="./admin.js"></script>
+  </body>
+</html>
